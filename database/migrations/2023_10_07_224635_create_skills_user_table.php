@@ -21,4 +21,3 @@ class CreateSkillsUserTable extends Migration
         Schema::dropIfExists('skills_user');
     }
 }
-
