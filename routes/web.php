@@ -9,6 +9,9 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\GitHubController;
+use App\Http\Controllers\ProjectController;
 
 
 /*
@@ -30,9 +33,13 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/createpost', function () {
         return view('createpost');
     });
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->middleware(['auth', 'verified'])->name('dashboard');
+    Route::get('/myprofile', function () {
+        return view('myprofile');
+    });
+    Route::get('/repositories', [GitHubController::class, 'showNasaRepositories']);
+    Route::get('/dashboard', [GitHubController::class, 'showUserRepositories'])
+        ->middleware(['auth', 'verified'])
+        ->name('dashboard');
 });
 
 
@@ -114,8 +121,6 @@ Route::get('/auth/callback', function (Request $request) {
 
     if (!$userInfo) {
         // Si el userInfo no se encuentra, crea un nuevo usuario y un nuevo UserInfo.
-        // Asegúrate de validar y sanear los datos antes de guardarlos en tu base de datos
-        // Suponiendo que el email es crucial y debes asegurarte de que existe
         // Si no hay un email, crear uno ficticio para cumplir con la restricción UNIQUE de la base de datos (si existe).
         $email = $githubUser['email'] ?? "user{$githubUser['id']}@noemail.com"; 
 
@@ -147,16 +152,42 @@ Route::get('/auth/callback', function (Request $request) {
             // 'github_token' => $token, // Si lo necesitas almacenar
             // 'github_refresh_token' => [si se proporciona]
         ]);
+        // Flash the name to the session
+        session()->flash('nameUser', $githubUser['login']); 
     } else {
         // Si el UserInfo se encuentra, obtén el User asociado.
         $user = $userInfo->user; // Asume que tienes una relación `user` definida en tu modelo UserInfo
+
+        // Verificación adicional: asegúrate de que $user no es null antes de intentar iniciar sesión
+        if (!$user) {
+            \Log::error('User associated with UserInfo not found', ['userInfoId' => $userInfo->id]);
+            // Puedes decidir crear un nuevo usuario aquí o redirigir con un error
+            return redirect('/')->withErrors(['error' => 'User not found']);
+        }
+
     }
 
     // Iniciar sesión con el usuario
     Auth::login($user, $remember = true);
 
+
+
     // Redirigir a una ubicación deseada
     return redirect('/dashboard');
+
+});
+
+//Route::resource('projects', ProjectController::class);
+
+Route::get('/projects', function () {
+    return view('projects');
+});
+Route::get('/user', function () {
+    return view('user');
+});
+
+Route::get('/project-detail', function () {
+    return view('project-detail');
 });
 
 

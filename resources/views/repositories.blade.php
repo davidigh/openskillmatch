@@ -172,24 +172,19 @@
           </div>
         </div>
       </div>
-      <div class="dashboard__main pl0-md">
-        <div class="dashboard__content hover-bgc-color">
-          <div class="row pb40">
-            <div class="col-lg-9">
-              <div class="dashboard_title_area">
-                <h2>{{ __('Dashboard') }}</h2>
-                <p class="text">You're logged in as {{ Auth::user() ? Auth::user()->name_user : 'Guest' }}!</p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <div class="text-lg-end">
-                <a href="{{('createpost')}}" class="ud-btn btn-dark default-box-shadow2">Add Project<i class="fal fa-arrow-right-long"></i></a>
-              </div>
-            </div>
-            <div>
-          </div>
 
-          <div class="row">
+      <div class="dashboard__main pl0-md">
+            <div class="dashboard__content hover-bgc-color">
+                <div class="row pb40">
+                    <div class="col-lg-9">
+                        <div class="dashboard_title_area">
+                            <h2>Repositories</h2>
+                            <p class="text">List of Open Science NASA repositories from GitHub</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
                     <div class="col-xl-12">
                         <div class="ps-widget bgc-white bdrs4 p30 mb30 position-relative">
                             <div class="navtab-style1">
@@ -201,7 +196,7 @@
                                 <div class="tab-content" id="nav-tabContent">
                                     <div class="tab-pane fade show active" id="nav-item1" role="tabpanel" aria-labelledby="nav-item1-tab">
                                         
-                                        <!-- @foreach($repositories as $repo)
+                                        @foreach($repositories as $repo)
                                         <div class="col-md-12">
                                             <div class="bdrb1 pb20">
                                                 <div class="mbp_first position-relative d-sm-flex align-items-center justify-content-start mb30-sm mt30">
@@ -218,29 +213,28 @@
                                             </div>
                                         </div>
                                         @endforeach
-                                         -->
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        
-      
-        </div>
-        <footer class="dashboard_footer pt30 pb30">
-          <div class="container">
-            <div class="row align-items-center justify-content-center justify-content-md-between">
-              <div class="col-auto">
-                <div class="copyright-widget">
-                  <p class="mb-md-0">OpenSkillMatch.</p>
-                </div>
-              </div>
-            
+
             </div>
-          </div>
-        </footer>
-      </div>
+            <footer class="dashboard_footer pt30 pb30">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center justify-content-md-between">
+                        <div class="col-auto">
+                            <div class="copyright-widget">
+                                <p class="mb-md-0">OpenSkillMatch.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+      
     </div>
   </div>
   <a class="scrollToHome" href="#"><i class="fas fa-angle-up"></i></a>

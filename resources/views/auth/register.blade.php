@@ -23,29 +23,56 @@
                 <h4>Let's create your account!</h4>
                 <p class="text mt20">Already have an account? <a href="login" class="text-thm">Log In!</a></p>
               </div>
-              <div class="mb25">
-                <label class="form-label fw500 dark-color">Display Name</label>
-                <input type="text" class="form-control" placeholder="John Doe">
-              </div>
-              <div class="mb25">
-                <label class="form-label fw500 dark-color">Username</label>
-                <input type="text" class="form-control" placeholder="CoolGuy99">
-              </div>
-              <div class="mb25">
-                <label class="form-label fw500 dark-color">Email</label>
-                <input type="email" class="form-control" placeholder="john.doe@mail.com">
-              </div>
-              <div class="mb15">
-                <label class="form-label fw500 dark-color">Password</label>
-                <input type="text" class="form-control" placeholder="••••••••">
-              </div>
-              <div class="d-grid mb20">
-                <button class="ud-btn btn-thm default-box-shadow2" type="button">Create Account <i class="fal fa-arrow-right-long"></i></button>
-              </div>
-              <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
-              <div class="d-grid mb20">
-                <a class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button" href="/auth/redirect"><i class="fab fa-github"></i> Continue with Github</a>
-              </div>
+
+                <form method="POST" action="{{ route('register') }}">
+                @csrf
+
+                    <div class="mb25">
+                        <x-input-label for="name" :value="__('Name')" class="form-label fw500 dark-color"/>
+                        <x-text-input class="form-control" id="name" class="form-control" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" placeholder="John Doe"/>
+                        <x-input-error :messages="$errors->get('name')" class="mt-2" />
+                    </div>
+                    <div class="mb25">
+                        <!-- Email Address -->
+                        <div class="mb25">
+                            <x-input-label for="email" :value="__('Email')" class="form-label fw500 dark-color" />
+                            <x-text-input id="email" class="form-control" type="email" name="email" :value="old('email')" required autocomplete="username" />
+                            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                        </div>
+                    </div>
+                    <!-- Password -->
+                    <div class="mb25">
+                        <x-input-label for="password" :value="__('Password')" class="form-label fw500 dark-color"/>
+
+                        <x-text-input id="password" class="form-control"
+                                        type="password"
+                                        name="password"
+                                        placeholder="••••••••"
+                                        required autocomplete="new-password" />
+
+                        <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                    </div>
+                    <!-- Confirm Password -->
+                    <div class="mb15">
+                        <x-input-label for="password_confirmation" :value="__('Confirm Password')" class="form-label fw500 dark-color"/>
+
+                        <x-text-input id="password_confirmation" class="form-control"
+                                        type="password"
+                                        placeholder="••••••••"
+                                        name="password_confirmation" required autocomplete="new-password" />
+
+                        <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
+                    </div>
+                    <div class="d-grid mb20">
+                        <x-primary-button class="ud-btn btn-thm default-box-shadow2">
+                            {{ __('Register') }}
+                        </x-primary-button>
+                    </div>
+                    <div class="hr_content mb20"><hr><span class="hr_top_text">OR</span></div>
+                    <div class="d-grid mb20">
+                        <a class="ud-btn btn-google fz14 fw400 mb-2 mb-md-0" type="button" href="/auth/redirect"><i class="fab fa-github"></i> Continue with Github</a>
+                    </div>
+              </form>
             </div>
           </div>
         </div>

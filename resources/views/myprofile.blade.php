@@ -160,10 +160,10 @@
           </div>
           
           
+
           <div class="sidebar_list_item ">
             <a href="{{('myprofile')}}" class="items-center"><i class="flaticon-photo mr15"></i>My Profile</a>
           </div>
-          
           <div class="sidebar_list_item ">
             <form method="POST" action="{{ route('logout') }}">
                 @csrf

@@ -50,4 +50,9 @@ class UserInfo extends Model
         'slug',
         'photo_profile',
     ];
+    
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }    
 }

@@ -54,7 +54,7 @@
           <div class="col-auto px-0">
             <div class="d-flex align-items-center justify-content-between">
               <div class="logos">
-                <a class="header-logo logo2" href="index.html"><img src="images/header-logo3.svg" alt="Header Logo"></a>
+                <a class="header-logo logo2" href="https://mercamedia.net"><img src="images/Logo_osm_small.png" alt="Header Logo"></a>
               </div>
               <div class="home1_style">
                 <div id="mega-menu">
@@ -513,150 +513,14 @@
               </div>
               <!-- Responsive Menu Structure-->
               <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Home</span></a>
+                <li class="visible_list"> <a class="list-item" href="{{('welcome')}}"><span class="title">Home</span></a>
                   <!-- Level Two-->
-                  <ul>
-                    <li><a href="index.html">Home V1</a></li>
-                    <li><a href="index2.html">Home V2</a></li>
-                    <li><a href="index3.html">Home V3</a></li>
-                    <li><a href="index4.html">Home V4</a></li>
-                    <li><a href="index5.html">Home V5</a></li>
-                    <li><a href="index6.html">Home V6</a></li>
-                    <li><a href="index7.html">Home V7</a></li>
-                    <li><a href="index8.html">Home V8</a></li>
-                    <li><a href="index9.html">Home V9</a></li>
-                    <li><a href="index10.html">Home V10</a></li>
-                    <li><a href="index11.html">Home V11</a></li>
-                    <li><a href="index12.html">Home V12</a></li>
-                    <li><a href="index13.html">Home V13</a></li>
-                    <li><a href="index14.html">Home V14</a></li>
-                    <li><a href="index15.html">Home V15</a></li>
-                    <li><a href="index16.html">Home V16</a></li>
-                    <li><a href="index17.html">Home V17</a></li>
-                    <li><a href="index18.html">Home V18</a></li>
-                    <li><a href="index19.html">Home V19</a></li>
-                    <li><a href="index20.html">Home V20</a></li>
-                  </ul>
+                
                 </li>
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Browse Jobs</span></a>
-                  <ul >
-                    <li> <a href="#"><span class="title">Services</span></a>
-                      <ul>
-                        <li><a href="page-service-v1.html">Service v1</a></li>
-                        <li><a href="page-service-v2.html">Service v2</a></li>
-                        <li><a href="page-service-v3.html">Service v3</a></li>
-                        <li><a href="page-service-v4.html">Service v4</a></li>
-                        <li><a href="page-service-v5.html">Service v5</a></li>
-                        <li><a href="page-service-v6.html">Service v6</a></li>
-                        <li><a href="page-service-v7.html">Service v7</a></li>
-                        <li><a href="page-service-all.html">Service All</a></li>
-                        <li><a href="page-service-single.html">Service Single</a></li>
-                        <li><a href="page-service-single-v1.html">Single V1</a></li>
-                        <li><a href="page-service-single-v2.html">Single V2</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Projects</span></a>
-                      <ul>
-                        <li><a href="page-project-v1.html">Project v1</a></li>
-                        <li><a href="page-project-list-v1.html">List v1</a></li>
-                        <li><a href="page-project-list-v2.html">List v2</a></li>
-                        <li><a href="page-project-list-v3.html">List v3</a></li>
-                        <li><a href="page-project-single.html">Project Single</a></li>
-                        <li><a href="page-project-single-v1.html">Single V1</a></li>
-                        <li><a href="page-project-single-v2.html">Single V2</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Job View</span></a>
-                      <ul>
-                        <li><a href="page-job-list-v1.html">Job list v1</a></li>
-                        <li><a href="page-job-list-v2.html">Job list v2</a></li>
-                        <li><a href="page-job-list-v3.html">Job list V3</a></li>
-                        <li><a href="page-job-list-single.html">Job Single</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li class="visible_list"> <a class="list-item" href="{{('projects')}}"><span class="title">Projects</span></a>
                 </li>
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Users</span></a>
-                  <ul>
-                    <li> <a href="#"><span class="title">Dashboard</span></a>
-                      <ul>
-                        <li><a href="page-dashboard.html">Dashboard</a></li>
-                        <li><a href="page-dashboard-proposal.html">Proposal</a></li>
-                        <li><a href="page-dashboard-save.html">Saved</a></li>
-                        <li><a href="page-dashboard-message.html">Message</a></li>
-                        <li><a href="page-dashboard-reviews.html">Reviews</a></li>
-                        <li><a href="page-dashboard-invoice.html">Invoice</a></li>
-                        <li><a href="page-dashboard-payouts.html">Payouts</a></li>
-                        <li><a href="page-dashboard-statement.html">Statement</a></li>
-                        <li><a href="page-dashboard-manage-service.html">Manage Service</a></li>
-                        <li><a href="page-dashboard-add-service.html">Add Services</a></li>
-                        <li><a href="page-dashboard-manage-jobs.html">Manage Jobs</a></li>
-                        <li><a href="page-dashboard-manage-project.html">Manage Project</a></li>
-                        <li><a href="page-dashboard-create-project.html">Create Project</a></li>
-                        <li><a href="page-dashboard-profile.html">My Profile</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Employee</span></a>
-                      <ul>
-                        <li><a href="page-employee-v1.html">Employee V1</a></li>
-                        <li><a href="page-employee-v2.html">Employee V2</a></li>
-                        <li><a href="page-employee-single.html">Employee Single</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Freelancer</span></a>
-                      <ul>
-                        <li><a href="page-freelancer-v1.html">Freelancer V1</a></li>
-                        <li><a href="page-freelancer-v2.html">Freelancer V2</a></li>
-                        <li><a href="page-freelancer-v3.html">Freelancer V3</a></li>
-                        <li><a href="page-freelancer-list-v1.html">List V1</a></li>
-                        <li><a href="page-freelancer-list-v2.html">List V2</a></li>
-                        <li><a href="page-freelancer-list-v3.html">List V3</a></li>
-                        <li><a href="page-freelancer-single.html">Freelancer Single</a></li>
-                        <li><a href="page-freelancer-single-v1.html">Single V1</a></li>
-                        <li><a href="page-freelancer-single-v2.html">Single V2</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="page-become-seller.html"><span class="title">Become Seller</span></a></li>
-                  </ul>
+                <li class="visible_list"> <a class="list-item" href="{{('user')}}"><span class="title">Users</span></a>
                 </li>
-                <li class="visible_list"> <a class="list-item" href="#"><span class="title">Pages</span></a>
-                  <ul>
-                    <li> <a href="#"><span class="title">About</span></a>
-                      <ul>
-                        <li><a href="page-about.html">About v1</a></li>
-                        <li><a href="page-about-v2.html">About v2</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Blog</span></a>
-                      <ul>
-                        <li><a href="page-blog-v1.html">List V1</a></li>
-                        <li><a href="page-blog-v2.html">List V2</a></li>
-                        <li><a href="page-blog-v3.html">List V3</a></li>
-                        <li><a href="page-blog-single.html">Single</a></li>
-                      </ul>
-                    </li>
-                    <li> <a href="#"><span class="title">Shop</span></a>
-                      <ul>
-                        <li><a href="page-shop.html">List</a></li>
-                        <li><a href="page-shop-single.html">Single</a></li>
-                        <li><a href="page-shop-cart.html">Cart</a></li>
-                        <li><a href="page-shop-checkout.html">Checkout</a></li>
-                        <li><a href="page-shop-order.html">Order</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="page-contact.html">Contact</a></li>
-                    <li><a href="page-error.html">404</a></li>
-                    <li><a href="page-faq.html">Faq</a></li>
-                    <li><a href="page-help.html">Help</a></li>
-                    <li><a href="page-invoice.html">Invoices</a></li>
-                    <li><a href="page-login.html">Login</a></li>
-                    <li><a href="page-pricing.html">Pricing</a></li>
-                    <li><a href="page-register.html">Register</a></li>
-                    <li><a href="page-terms.html">Terms</a></li>
-                    <li><a href="page-ui-element.html">UI Elements</a></li>
-                  </ul>
-                </li>
-                <li> <a class="list-item" href="page-contact.html">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -664,7 +528,7 @@
             <div class="d-flex align-items-center">
               @if (Route::has('login'))
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Account</a>
                     @else
                         <a href="{{ route('login') }}" class="login-info mr10-lg mr30">Log in</a>
                         @if (Route::has('register'))
@@ -680,25 +544,7 @@
     </nav>
   </header>
   <!-- Search Modal -->
-  <div class="search-modal">
-    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalToggleLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fal fa-xmark"></i></button>
-          </div>
-          <div class="modal-body">
-            <div class="popup-search-field search_area">
-              <input type="text" class="form-control border-0" placeholder="What service are you looking for today?">
-              <label><span class="far fa-magnifying-glass"></span></label>
-              <button class="ud-btn btn-thm" type="submit">Search</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
 
   <div class="hiddenbar-body-ovelay"></div>
 
@@ -708,9 +554,9 @@
       <div class="header bdrb1">
         <div class="menu_and_widgets">
           <div class="mobile_menu_bar d-flex justify-content-between align-items-center">
-            <a class="mobile_logo" href="#"><img src="images/header-logo3.svg" alt=""></a>
+            <a class="mobile_logo" href="#"><img src="images/Logo_osm_small.png" alt=""></a>
             <div class="right-side text-end">
-              <a class="" href="page-login.html">join</a>
+              <a class="" href="href={{('register')}}">Account</a>
               <a class="menubar ml30" href="#menu"><img src="images/mobile-dark-nav-icon.svg" alt=""></a>
             </div>
           </div>
@@ -721,148 +567,9 @@
     <!-- /.mobile-menu -->
     <nav id="menu" class="">
       <ul>
-        <li><span>Home</span>
-          <ul>
-            <li><a href="index.html">Home V1</a></li>
-            <li><a href="index2.html">Home V2</a></li>
-            <li><a href="index3.html">Home V3</a></li>
-            <li><a href="index4.html">Home V4</a></li>
-            <li><a href="index5.html">Home V5</a></li>
-            <li><a href="index6.html">Home V6</a></li>
-            <li><a href="index7.html">Home V7</a></li>
-            <li><a href="index8.html">Home V8</a></li>
-            <li><a href="index9.html">Home V9</a></li>
-            <li><a href="index10.html">Home V10</a></li>
-            <li><a href="index11.html">Home V11</a></li>
-            <li><a href="index12.html">Home V12</a></li>
-            <li><a href="index13.html">Home V13</a></li>
-            <li><a href="index14.html">Home V14</a></li>
-            <li><a href="index15.html">Home V15</a></li>
-            <li><a href="index16.html">Home V16</a></li>
-            <li><a href="index17.html">Home V17</a></li>
-            <li><a href="index18.html">Home V18</a></li>
-            <li><a href="index19.html">Home V19</a></li>
-            <li><a href="index20.html">Home V20</a></li>
-          </ul>
-        </li>
-        <li><span>Browse Jobs</span>
-          <ul>
-            <li><span>Services</span>
-              <ul>
-                <li><a href="page-service-v1.html">Service v1</a></li>
-                <li><a href="page-service-v2.html">Service v2</a></li>
-                <li><a href="page-service-v3.html">Service v3</a></li>
-                <li><a href="page-service-v4.html">Service v4</a></li>
-                <li><a href="page-service-v5.html">Service v5</a></li>
-                <li><a href="page-service-v6.html">Service v6</a></li>
-                <li><a href="page-service-v7.html">Service v7</a></li>
-                <li><a href="page-service-all.html">Service All</a></li>
-                <li><a href="page-service-single.html">Service Single</a></li>
-                <li><a href="page-service-single-v1.html">Single V1</a></li>
-                <li><a href="page-service-single-v2.html">Single V2</a></li>
-              </ul>
-            </li>
-            <li><span>Projects</span>
-              <ul>
-                <li><a href="page-project-v1.html">Project v1</a></li>
-                <li><a href="page-project-list-v1.html">List v1</a></li>
-                <li><a href="page-project-list-v2.html">List v2</a></li>
-                <li><a href="page-project-list-v3.html">List v3</a></li>
-                <li><a href="page-project-single.html">Project Single</a></li>
-                <li><a href="page-project-single-v1.html">Single V1</a></li>
-                <li><a href="page-project-single-v2.html">Single V2</a></li>
-              </ul>
-            </li>
-            <li><span>Job View</span>
-              <ul>
-                <li><a href="page-job-list-v1.html">Job list v1</a></li>
-                <li><a href="page-job-list-v2.html">Job list v2</a></li>
-                <li><a href="page-job-list-v3.html">Job list V3</a></li>
-                <li><a href="page-job-list-single.html">Job Single</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><span>Users</span>
-          <ul>
-            <li><span>Dashboard</span>
-              <ul>
-                <li><a href="page-dashboard.html">Dashboard</a></li>
-                <li><a href="page-dashboard-proposal.html">Proposal</a></li>
-                <li><a href="page-dashboard-save.html">Saved</a></li>
-                <li><a href="page-dashboard-message.html">Message</a></li>
-                <li><a href="page-dashboard-reviews.html">Reviews</a></li>
-                <li><a href="page-dashboard-invoice.html">Invoice</a></li>
-                <li><a href="page-dashboard-payouts.html">Payouts</a></li>
-                <li><a href="page-dashboard-statement.html">Statement</a></li>
-                <li><a href="page-dashboard-manage-service.html">Manage Service</a></li>
-                <li><a href="page-dashboard-add-service.html">Add Services</a></li>
-                <li><a href="page-dashboard-manage-jobs.html">Manage Jobs</a></li>
-                <li><a href="page-dashboard-manage-project.html">Manage Project</a></li>
-                <li><a href="page-dashboard-create-project.html">Create Project</a></li>
-                <li><a href="page-dashboard-profile.html">My Profile</a></li>
-              </ul>
-            </li>
-            <li><span>Employee</span>
-              <ul>
-                <li><a href="page-employee-v1.html">Employee V1</a></li>
-                <li><a href="page-employee-v2.html">Employee V2</a></li>
-                <li><a href="page-employee-single.html">Employee Single</a></li>
-              </ul>
-            </li>
-            <li><span>Freelancer</span>
-              <ul>
-                <li><a href="page-freelancer-v1.html">Freelancer V1</a></li>
-                <li><a href="page-freelancer-v2.html">Freelancer V2</a></li>
-                <li><a href="page-freelancer-v3.html">Freelancer V3</a></li>
-                <li><a href="page-freelancer-list-v1.html">List V1</a></li>
-                <li><a href="page-freelancer-list-v2.html">List V2</a></li>
-                <li><a href="page-freelancer-list-v3.html">List V3</a></li>
-                <li><a href="page-freelancer-single.html">Freelancer Single</a></li>
-                <li><a href="page-freelancer-single-v1.html">Single V1</a></li>
-                <li><a href="page-freelancer-single-v2.html">Single V2</a></li>
-              </ul>
-            </li>
-            <li><a href="page-become-seller.html">Become Seller</a></li>
-          </ul>
-        </li>
-        <li><span>Pages</span>
-          <ul>
-            <li><span>About</span>
-              <ul>
-                <li><a href="page-about.html">About v1</a></li>
-                <li><a href="page-about-v2.html">About v2</a></li>
-              </ul>
-            </li>
-            <li><span>Shop</span>
-              <ul>
-                <li><a href="page-shop.html">List</a></li>
-                <li><a href="page-shop-single.html">Single</a></li>
-                <li><a href="page-shop-cart.html">Cart</a></li>
-                <li><a href="page-shop-checkout.html">Checkout</a></li>
-                <li><a href="page-shop-order.html">Order</a></li>
-              </ul>
-            </li>
-            <li><a href="page-contact.html">Contact</a></li>
-            <li><a href="page-error.html">404</a></li>
-            <li><a href="page-faq.html">Faq</a></li>
-            <li><a href="page-help.html">Help</a></li>
-            <li><a href="page-invoice.html">Invoices</a></li>
-            <li><a href="page-login.html">Login</a></li>
-            <li><a href="page-pricing.html">Pricing</a></li>
-            <li><a href="page-register.html">Register</a></li>
-            <li><a href="page-terms.html">Terms</a></li>
-            <li><a href="page-ui-element.html">UI Elements</a></li>
-          </ul>
-        </li>
-        <li><span>Blog</span>
-          <ul>
-            <li><a href="page-blog-v1.html">List V1</a></li>
-            <li><a href="page-blog-v2.html">List V2</a></li>
-            <li><a href="page-blog-v3.html">List V3</a></li>
-            <li><a href="page-blog-single.html">Single</a></li>
-          </ul>
-        </li>
+        <li><a href="{{('welcome')}}"><span>Home</span></a></li>
+        <li><a href="{{('projects')}}"><span>Projects</span></a></li>
+        <li><a href="{{('user')}}"><span>Users</span></a></li>
         <!-- Only for Mobile View -->
       </ul>
     </nav>
@@ -966,7 +673,7 @@
               <img src="images/about/home6-hero-element-1.png" alt="" class="bounce-y img-1 d-none d-sm-block">
               <img src="images/about/home6-hero-element-2.png" alt="" class="bounce-y img-2 d-none d-sm-block">
               <img src="images/about/home6-hero-element-3.png" alt="" class="bounce-y img-3 d-none d-sm-block">
-              <img src="images/about/home6-hero-img-1.png" alt="" class="animate-up-1 w-100">
+              <img src="https://image.jimcdn.com/app/cms/image/transf/dimension=2140x10000:format=jpg/path/s02779bf69f36d7f0/image/i0b87ab7a4b4a53a3/version/1565078494/image.jpg" alt="" class="animate-up-1 w-100" style="border-radius: 25px;">
             </div>
           </div>
         </div>
@@ -974,191 +681,6 @@
     </section>
 
     <!-- Browse talent by category -->
-    <section class="pb40-md pb90">
-      <div class="container">
-        <div class="row align-items-center wow fadeInUp" data-wow-delay="300ms">
-          <div class="col-lg-9">
-            <div class="main-title2">
-              <h2 class="title">Browse research by category</h2>
-              <p class="paragraph">Get some Inspiration.</p>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="text-start text-lg-end mb-4 mb-lg-2">
-              <a class="ud-btn2" href="page-service-single.html">All Categories<i class="fal fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="row d-none d-lg-flex wow fadeInUp">
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-developer"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Development & IT</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-web-design-1"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Design & Creative</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-digital-marketing"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Digital Marketing</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-translator"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Writing & Translation</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-microphone"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Music & Audio</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-video-file"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Video & Animation</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-ruler"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Engineering & Architecture</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 col-xl-3">
-            <div class="iconbox-style1">
-              <div class="icon"><span class="flaticon-goal"></span></div>
-              <div class="details mt20">
-                <p class="text mb5">1.853 skills</p>
-                <h4 class="title">Finance & Accounting</h4>
-                <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row d-block d-lg-none">
-          <div class="col-lg-12">
-            <div class="slider-outer-dib navi_pagi_top_right slider-5-grid owl-carousel owl-theme wow fadeInUp">
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-developer"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Development & IT</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-web-design-1"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Design & Creative</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-digital-marketing"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Digital Marketing</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-translator"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Writing & Translation</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-microphone"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Music & Audio</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-video-file"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Video & Animation</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-ruler"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Engineering & Architecture</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="iconbox-style1">
-                  <div class="icon"><span class="flaticon-goal"></span></div>
-                  <div class="details mt20">
-                    <p class="text mb5">1.853 skills</p>
-                    <h4 class="title">Finance & Accounting</h4>
-                    <p class="mb-0">Software Engineer, Web / Mobile Developer & More</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
    <!-- Explore Apartment -->
    <section class="our-features bgc-thm2 pt60 pb35">
@@ -1172,7 +694,7 @@
           </div>
           <div class="col-lg-3">
             <div class="text-start text-lg-end mb-3">
-              <a class="ud-btn2" href="page-service-v1.html">All Categories<i class="fal fa-arrow-right-long dark-color"></i></a>
+              <a class="ud-btn2" style="color:white;" href="page-service-v1.html">All Categories<i class="fal fa-arrow-right-long"></i></a>
             </div>
           </div>
         </div>
@@ -1180,10 +702,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-1.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Development & IT</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Development & IT</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1191,10 +713,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-2.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Design & Creative</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Design & Creative</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1202,10 +724,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-3.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Digital Marketing</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Digital Marketing</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1213,10 +735,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-4.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Writing & Translation</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Writing & Translation</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1224,10 +746,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-5.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Music & Audio</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Music & Audio</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1235,10 +757,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-6.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Video & Animation</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Video & Animation</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1246,10 +768,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-7.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Engineering & Architecture</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Engineering & Architecture</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1257,10 +779,10 @@
           <div class="col-sm-6 col-lg-3">
             <a href="page-service-v1.html">
               <div class="position-relative mb50 mb20-md d-flex align-items-center">
-                <div class="city-img flex-shrink-0"><img class="bdrs4" src="images/listings/ct-s-8.jpg" alt=""></div>
+                <div class="city-img flex-shrink-0"><span class="flaticon-cv"></span></div>
                 <div class="flex-shrink-1 ms-3">
-                  <h6 class="mb-1">Finance & Accounting</h6>
-                  <p class="mb-0">1.853 skills</p>
+                  <h6 class="mb-1" style="color:white;">Finance & Accounting</h6>
+                  <p class="mb-0" style="color:white;">1.853 skills</p>
                 </div>
               </div>
             </a>
@@ -1297,7 +819,7 @@
               <div class="icon before-none"><span class="flaticon-web-design"></span></div>
               <div class="details">
                 <h4 class="title mt10 mb-3">Professional around the globe</h4>
-                <p class="text">It' easy to colaborate when everyone and everything is in the same place.</p>
+                <p class="text">It's easy to colaborate when everyone and everything is in the same place.</p>
               </div>
             </div>
           </div>
@@ -1306,7 +828,7 @@
               <div class="icon before-none"><span class="flaticon-secure"></span></div>
               <div class="details">
                 <h4 class="title mt10 mb-3">Always free</h4>
-                <p class="text">Common it's open science<br class="d-none d-xxl-block">the world it's better with open reseach.</p>
+                <p class="text">It's open science.<br class="d-none d-xxl-block">The world is better with open reseach.</p>
               </div>
             </div>
           </div>
@@ -1339,11 +861,8 @@
                   <p class="text fz13 mb-0">Project Completed</p>
                 </div>
               </div>
-              <div class="about-img wow fadeInRight" data-wow-delay="300ms">
-                <img class="w100" src="images/about/about-1.png" alt="">
-              </div>
-              <div class="imgbox-1 default-box-shadow1 text-center wow fadeInUp">
-                <img class="img-1 bounce-y" src="images/about/happy-client.png" alt="">
+              <div class="about-img wow fadeInRight bounce-y" data-wow-delay="300ms">
+                <img class="w100" src="https://shorthand-social.imgix.net/prod/story/jgvJ4dPyc6/media/ec0124a0595c11e6b6cc135a0e1c6a63/original.jpg?w=1500&h=1500&fit=clip&fm=jpg&q=75" alt="">
               </div>
             </div>
           </div>
@@ -1380,7 +899,7 @@
           </div>
           <div class="col-md-6 col-lg-5 col-xl-5 position-relative wow zoomIn">
             <div class="cta-img">
-              <img class="w-100" src="images/about/about-3.png" alt="">
+              <img class="w-100" style="border-radius: 25px;" src="https://www.ecs.soton.ac.uk/sites/www.ecs.soton.ac.uk/files/_1jb0765_960x533.jpg" alt="">
             </div>
           </div>
         </div>
